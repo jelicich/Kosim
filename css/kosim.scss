@@ -1,0 +1,714 @@
+$orangeBg: #d36419;
+$darkBg: #2d3139;
+
+$mainFont: 'Roboto', sans-serif;
+$headingFont: 'Karla', sans-serif;
+$darkText: #636466;
+$xsText: 20px;
+$smText: 22px;
+$lgText: 26px;
+
+
+/*globals*/
+#kosim section h1{
+	font-size: 35px;
+}
+
+#kosim section h1,
+#kosim section h2{
+	font-family: $headingFont;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#kosim.wrapper{
+	position: relative;
+	font-family: $mainFont;
+	color: $darkText;
+}
+
+#kosim .no-bullet{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#kosim .button{
+	display: inline-block;
+	background-color: $orangeBg;
+	padding: 20px 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Karla', sans-serif;
+}
+
+#kosim .button:hover{
+	text-decoration: none;
+}
+
+#kosim .align-c{
+	text-align: center;
+}
+
+#kosim .align-l{
+	text-align: left;
+}
+
+#kosim .xs-text{
+	font-size: $xsText;
+}
+
+#kosim .sm-text{
+	font-size: $smText;
+}
+
+#kosim .lg-text{
+	font-size: $lgText;
+}
+
+/*sections*/
+#kosim #header .top-bar{
+	background: url('../img/bg/top-bar-bg.jpg') repeat-x;
+	height: 43px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#kosim #header .contact{
+	margin: 10px 0 0 0;
+	position: relative;
+	z-index: 3;
+	float: right;
+}
+
+#kosim #header .contact a{
+	color: #fff;
+}
+
+#kosim #header .contact li{
+	float: left;
+	margin-right: 20px;
+	padding-left: 28px;
+}
+
+#kosim #header .contact li:first-child{
+	background: url('../img/icons/phone-sm.png') no-repeat;
+}
+
+#kosim #header .contact li:last-child{
+	background: url('../img/icons/email-sm.png') no-repeat;
+	margin: 0;
+}
+
+#kosim #header .bottom-bar{
+	background: #fff;
+	height: 94px;
+	position: relative;
+	z-index: 999;
+}
+
+#kosim #header #logo-container h1{
+	text-indent: -9999px;
+	background: url('../img/logos/main-logo.png') no-repeat;
+	width: 299px;
+	height: 52px;
+}
+
+#kosim #header #nav-container nav{
+	margin-top: 40px;
+	background: none;
+	border:none;
+	border-radius: 0;
+	float: right;
+	min-height: 0;
+}
+
+#kosim #header #nav-container nav .container-fluid{
+	float: right;
+	padding: 0;
+}
+
+#kosim #header #nav-container nav .container-fluid .navbar-collapse{
+	float: right;
+	padding: 0;
+}
+
+#kosim #header #nav-container nav .container-fluid .navbar-collapse .navbar-nav{
+	float: right;
+	padding: 0;
+}
+
+#kosim #header #nav-container nav a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: $darkText;
+	display: inline-block;
+	padding: 0;
+	margin-left: 35px;
+}
+
+#kosim #header #nav-container nav a:hover{
+	text-decoration: underline;
+}
+
+#kosim #home{
+	height: 700px;
+	/*overflow: hidden;*/
+	position: relative;
+	border-bottom: 12px solid $orangeBg;
+	margin-top: -140px;
+    padding-top: 140px;
+}
+
+/*override slider pros*/
+#kosim #home .bx-wrapper .bx-viewport{
+	box-shadow: none;
+	border: none;
+	left: 0;
+}
+
+#kosim #home .bx-wrapper,
+#kosim #home .bx-wrapper .bx-viewport{
+	height: 100% !important;
+}
+
+#kosim #home .bx-wrapper img{
+	height: 100%;
+}
+/**/
+
+#kosim #home #slider,
+#kosim #home #slider li{
+	height: 100%;
+}
+
+#kosim #home #slider img{
+	width: 100%;
+}
+
+#kosim #home .slider-mask{
+	position: absolute;
+    top: 0;
+    border-bottom: 688px solid rgba(0, 0, 0, 0.3);
+    border-left: 650px solid rgba(0, 0, 0, 0.3);
+    border-right: 600px solid transparent;
+    height: 0;
+    width: 100px;
+    z-index: 2;
+}
+
+#kosim #home .slider-mask-top{
+    border-bottom: 50px solid #000;
+    border-left: 769px solid #000;
+    border-right: 43px solid transparent;
+    height: 0;
+    width: 100px;
+    margin-left: -769px;
+}
+
+#kosim #home .content{
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    z-index: 4;
+}
+
+#kosim #home .custom-bullet{
+	margin-top: 110px;
+}
+
+#kosim #home .custom-bullet li{
+	background: url('../img/icons/bullet.png') no-repeat 0 10px;
+	padding-left: 45px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+
+#kosim #home .call-to-action{
+	font-size: 26px;
+	margin-top: 110px;
+}
+
+#kosim #about{
+	background: url('../img/bg/about-bg.jpg');
+}
+
+#kosim #about h1{
+	color: $orangeBg;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+#kosim #about .text-container{
+	margin-bottom: 65px; 
+	font-size: 20px;
+}
+
+#kosim #about .text-container strong{
+	color: #000;
+}
+
+#kosim #clients{
+	background: $darkBg;
+}
+
+#kosim #clients h1{
+	color: #e1e0e0;
+	font-size: 24px;
+	margin-top: 45px;
+	margin-bottom: 65px;
+	background: url('../img/bg/line-bg.gif') center center no-repeat;
+}
+
+/*override slider props*/
+#kosim #clients .bx-wrapper .bx-viewport{
+	box-shadow: none;
+	border: none;
+	left: 0;
+	background: none;
+}
+
+/*override slider btns*/
+#kosim #clients .bx-wrapper .bx-prev,
+#kosim #clients .bx-wrapper .bx-next{
+	width: 55px;
+	height: 55px;
+	margin-top: -27px;
+}
+#kosim #clients .bx-wrapper .bx-prev{
+	background: url('../img/icons/prev-btn.png');
+	left: 0;
+}
+
+#kosim #clients .bx-wrapper .bx-next{
+	background: url('../img/icons/next-btn.png');
+	right: 0;
+}
+
+/*override padding content*/
+#kosim #clients .bx-wrapper{
+	padding: 0 70px;
+}
+
+#kosim #clients .carousel-container{
+	margin-bottom: 75px;
+}
+
+#kosim #services{
+	color: #fff;
+	background: url('../img/bg/services-bg.jpg') $orangeBg;
+}
+
+#kosim #services h1{
+	margin-top: 130px;
+	margin-bottom: 75px;
+}
+
+#kosim #services h2{
+	font-size: 28px;
+	margin-bottom: 55px;
+}
+
+#kosim #services p{
+	margin-bottom: 45px;
+}
+
+#kosim #services p:last-child{
+	margin-bottom: 88px;
+}
+
+#kosim #services .category{
+	margin-bottom: 35px;
+}
+
+#kosim #services .category img{
+	max-width: 100%;
+}
+
+#kosim #services .category .wrapper{
+	background: $darkBg;
+}
+
+#kosim #services .category a{
+	text-transform: uppercase;
+	color: $orangeBg;
+	display: inline-block;
+	margin-bottom: 25px;
+	font-family: $headingFont;
+	font-size: 20px;
+}
+
+#kosim #projects{
+	background: url('../img/bg/projects-bg.jpg');
+}
+
+#kosim #projects .divider{
+	background: url('../img/bg/projects-divider-bg.png') repeat-x 0 6px;
+	height: 64px;
+}
+
+#kosim #projects h1{
+	margin: 90px 0;
+}
+
+#kosim #projects .project{
+	margin-bottom: 110px;
+}
+
+#kosim #projects .project img{
+	border: 10px solid #fff;
+	margin-bottom: 45px;
+	max-width: 100%;
+}
+
+#kosim #projects .project h2{
+	color: $orangeBg;
+	font-size: 20px;
+	text-transform: none;
+	margin-bottom: 20px
+}
+
+#kosim #projects .project p{
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+
+#kosim #projects .project .button{
+	padding: 25px 70px;
+	font-size: 16px;
+}
+
+#kosim #hr{
+	background: url('../img/bg/hr-bg.jpg') no-repeat center $orangeBg;
+	background-size: cover;
+	color: #fff;
+}
+
+#kosim #hr h1{
+	margin: 100px 0;
+}
+
+#kosim #hr form{
+	color: $darkText;
+	margin-top: 100px;
+	margin-bottom: 90px;
+}
+
+#kosim #hr form input[type="text"],
+#kosim #hr form input[type="email"]{
+	background: #cccccc;
+	border-radius: 5px;
+	height: 50px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 20px;
+	width: 100%;
+}
+
+#kosim #hr form input[type="file"]{
+	display: none;
+}
+
+#kosim #hr form input[type="submit"]{
+	display: block;
+	background: $darkBg;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 20px 60px;
+	margin: 30px auto;
+	border: none;
+}
+
+#kosim #hr .custom-file{
+	background: #cccccc;
+	border-radius: 5px;
+	height: 90px;
+	border: 1px solid rgba(0,0,0,0.3);
+	margin-top: 20px;
+}
+
+#kosim #hr .custom-file label{
+	display: inline-block;
+	padding: 20px 30px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+#kosim #contact{
+	background: url('../img/bg/contact-bg.jpg') no-repeat center $darkBg;
+	background-size: cover;
+}
+
+#kosim #contact h1{
+	margin: 100px 0;
+	color: rgba(255,255,255,0.6);
+}
+
+#kosim #contact p{
+	color: #fff;
+}
+
+#kosim #contact .xs-text{
+	color: rgba(255,255,255,0.6);
+}
+
+#kosim #contact .container > .row:first-child{
+	margin-bottom: 100px;
+}
+
+#kosim #contact form input[type="text"],
+#kosim #contact form input[type="email"],
+#kosim #contact form textarea{
+	background: #cccccc;
+	border-radius: 5px;
+	height: 50px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding: 20px;
+	width: 100%;
+}
+
+#kosim #contact form textarea{
+	margin-top: 20px;
+	height: 185px;
+}
+
+#kosim #contact form input[type="submit"]{
+	display: block;
+	background: $orangeBg;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 20px 60px;
+	margin: 30px auto;
+	border: none;
+}
+
+#kosim #contact address dt,
+#kosim #contact address dd{
+	padding-left: 75px;
+}
+
+#kosim #contact address dt{
+	color: $orangeBg;
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+#kosim #contact address dd{
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#kosim #contact address dd:last-child{
+	border-bottom: none;
+}
+
+#kosim #contact address .address{
+	background: url('../img/icons/home-icon.png') no-repeat;
+}
+
+#kosim #contact address .phone{
+	background: url('../img/icons/phone-icon.png') no-repeat;
+}
+
+#kosim #contact address .email{
+	background: url('../img/icons/mail-icon.png') no-repeat;
+}
+
+#kosim #contact address a{
+	color: $darkText;
+}
+
+/* (desktops, up to 1200px) */
+@media (max-width: 1199px) { 
+	#kosim #header #nav-container nav a{
+		margin-left: 20px;
+	}
+
+	#kosim #home .slider-mask{
+	    border-left: 380px solid rgba(0, 0, 0, 0.3);
+	}
+
+	#kosim #home .call-to-action{
+		font-size: 20px;
+	}
+}
+
+/* (desktops, up to 992px) */
+@media (max-width: 991px) {
+	#kosim #header .bottom-bar {
+		height: 145px;
+	}
+
+	#kosim #header #logo-container h1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#kosim #header #nav-container nav{
+		float: none;
+		margin-top: 20px;
+	}
+
+	#kosim #header #nav-container nav .container-fluid{
+		float: none;
+		padding: 0;
+	}
+
+	#kosim #header #nav-container nav .container-fluid .navbar-collapse{
+		float: none;
+		padding: 0;
+	}
+
+	#kosim #header #nav-container nav .container-fluid .navbar-collapse .navbar-nav{
+		float: none;
+		padding: 0;
+	}
+
+	#kosim #header #nav-container nav a{
+		font-size: 18px;
+		margin: 0 17px;
+	}
+
+	#kosim #home{
+		margin-top: -190px;
+    	padding-top: 190px;
+	}
+
+	#kosim #home .slider-mask{
+	    border-left: 280px solid rgba(0, 0, 0, 0.3);
+	}
+
+	#kosim #about h1{
+		text-align: center;
+	}
+
+	#kosim #projects .project img{
+		width: 100%;
+	}
+
+	#kosim #hr form input[type="text"]{
+		margin-bottom: 20px;
+	}
+
+	#kosim #contact form input[type="text"]{
+		margin-bottom: 20px;
+	}
+
+	
+}
+
+/* (tablets, up to 768px) */
+@media (max-width: 767px) {
+	#kosim #header #logo-container h1{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#kosim #header #nav-container{
+		margin-top: -80px;
+	}
+
+	#kosim #header .top-bar{
+		height: 55px;
+		background: $orangeBg;
+		z-index: 4;
+	}
+
+	#kosim #header .bottom-bar {
+		height: 94px;
+	}
+
+	#kosim #header #nav-container nav .container-fluid .navbar-collapse{
+		background: #fff;
+		border: none;
+		overflow: hidden;
+		margin-top: 22px;
+		border-top: 1px solid rgba(0,0,0,0.2);
+	}
+
+	#kosim #header #nav-container nav .container-fluid .navbar-collapse .navbar-nav{
+		margin: 0;
+	}
+
+	#kosim #header #nav-container nav a{
+		display: block;
+		padding: 15px 10px;
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+		margin: 0;
+		text-decoration: none;
+	}
+
+	#kosim #header #nav-container nav a:hover{
+		text-decoration: none;
+	}
+
+	#kosim #header #logo-container h1{
+		width: 250px;
+		background-size: contain;
+	}
+
+	#kosim #home{
+		/*overflow: hidden;
+		margin-top: -150px;
+	    padding-top: 150px;*/
+	    width: 100%;
+	}
+
+	#kosim #home .slider-mask-top{
+	    display: none;
+	}
+
+	#kosim #home .slider-mask{
+		background-color: rgba(0,0,0,0.3);
+		border: none;
+		top: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	#kosim #home .call-to-action{
+		font-size: 17px;
+	}
+
+	#kosim #about img{
+		max-width: 100%;
+	}
+
+	#kosim #clients #carousel li{
+		height: 120px;
+	    width: 150px;
+	}
+
+	#kosim #clients #carousel img{
+		width: 195px;
+	}
+
+	#kosim #hr .custom-file{
+		height: 130px;
+	}
+
+	#kosim #hr .custom-file label{
+		display: block;
+		text-align: center;
+	}
+
+	#kosim #hr .custom-file .placeholder{
+		display: block;
+		text-align: center;
+	}
+
+}
+
+/* (super narrow, up to 349px) */
+@media (max-width: 349px) {
+	#kosim #header #logo-container h1{
+		width: 210px;
+    	background-position: 0 9px;
+	}
+}
